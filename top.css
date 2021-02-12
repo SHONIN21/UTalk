@@ -1,0 +1,166 @@
+@media screen and (min-width: 481px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        color: black;
+    }
+    body{
+        font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif; 
+        min-width: 900px;
+    }
+    a {
+        text-decoration: none;
+    }
+    a :hover {
+        color: lightgray;
+    }
+    header {
+        max-width: 1100px;
+        margin: 0 auto;
+        height: 75vh;
+        background-color: white;
+    }
+    .header-container {
+        text-align: center;
+        width: 650px;
+        margin: auto;
+    }
+    h1 {
+        font-size: 64px;
+        padding-top: 20vh;
+        padding-bottom: 16px;
+    }
+    .header-p {
+        padding-bottom: 24px;
+    }
+    .main1 {
+        margin: 0 auto;
+        display: flex;
+        height: 125vh;
+        background-color: rgb(253, 248, 234);
+    }
+    .main-container {
+        margin: 5vh auto auto auto;
+        text-align: center;
+        width: 600px;
+    }
+    h2 {
+        padding-bottom: 32px;
+    }
+    .main-p {
+        padding-bottom: 48px;
+    }
+    .main-p2 {
+        padding-top: 10vh;
+        text-align: left;
+    }
+    table{
+        width: 600px;
+        margin: 0 auto;
+        background-color: white;
+        border-collapse: collapse;
+    }
+    td{
+        font-size: 16px;
+        text-align: left;
+        padding: 26px 0 5px 40px;
+        border-bottom: solid 1px rgb(48, 38, 34);
+    }
+    footer {
+        height: 10vh;
+        background-color: rgb(33, 38, 44);
+        text-align: center;
+    }
+    small {
+        font-size: 12px;
+        color: white;
+    }
+}
+
+
+/* スマホ用 */
+@media screen and (max-width: 480px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        color: black;
+    }
+    body{
+        font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif; 
+        min-width: 320px;
+        max-width: 480px;
+    }
+    a {
+        text-decoration: none;
+    }
+    a :hover {
+        color: lightgray;
+    }
+    header {
+        max-width: 480px;
+        margin: 0 auto;
+        height: 70vh;
+        background-color: white;
+        flex-direction:column;
+        text-align: center;
+    }
+    .header-container {
+        text-align: center;
+        width: 85vw;
+        margin: auto;
+    }
+    h1 {
+        font-size: 32px;
+        padding-top: 10vh;
+        padding-bottom: 16px;
+    }
+    .header-p {
+        padding-bottom: 24px;
+        font-size: 14px;
+    }
+    .main1 {
+        margin: 0 auto;
+        display: flex;
+        height: 160vh;
+        background-color: rgb(253, 248, 234);
+    }
+    .main-container {
+        margin: 5vh auto auto auto;
+        text-align: center;
+        width: 85vw;
+    }
+    h2 {
+        padding-bottom: 3vh;
+    }
+    .main-p {
+        padding-bottom: 5vh;
+        font-size: 14px;
+    }
+    .main-p2 {
+        padding-top: 5vh;
+        font-size: 14px;
+        text-align: left;
+    }
+    table{
+        width: 85vw;
+        height: 50vh;
+        margin: 0 auto;
+        background-color: white;
+        border-collapse: collapse;
+    }
+    td{
+        font-size: 14px;
+        text-align: left;
+        padding: 26px 0 5px 40px;
+        border-bottom: solid 1px rgb(48, 38, 34);
+    }
+    footer {
+        height: 10vh;
+        background-color: rgb(33, 38, 44);
+        text-align: center;
+    }
+    small {
+        font-size: 12px;
+        color: white;
+    }
+}
