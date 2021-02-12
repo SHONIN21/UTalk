@@ -68,12 +68,12 @@
     }
     footer {
         height: 10vh;
-        background-color: rgb(33, 38, 44);
+        background-color: rgb(142, 177, 219);
         text-align: center;
     }
     small {
         font-size: 12px;
-        color: white;
+        color: black;
     }
 }
 
@@ -156,11 +156,11 @@
     }
     footer {
         height: 10vh;
-        background-color: rgb(33, 38, 44);
+        background-color: rgb(142, 177, 219);
         text-align: center;
     }
     small {
         font-size: 12px;
-        color: white;
+        color: black;
     }
 }
